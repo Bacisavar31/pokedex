@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.pic {
+    width: 70px;
+}
+
+.buttonholder {
+    padding: 50px;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+}
+
+.deck {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+}
+
+.head {
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, pink, violet);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    position: relative;
+
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: black;
+}
+
+form {
+    padding: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input, button {
+    border: none;
+    background-color: #fff;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+button:hover {
+    transition: 200ms;
+    background-color: purple;
+    color: #fff;
+}
+
+.poke-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 300px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.pokemon-header {
+    padding: 20px;
+    height: 15%;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px 15px 0px 0px;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+
+.pokemon-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 75%;
+}
+
+img {
+    width: 90%;
+}
+
+.pokemon-footer {
+    height: 10%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: black;
+    color: #fff;
+}
+
+.buttonholder {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbutton {
+    margin: 20px;
+}

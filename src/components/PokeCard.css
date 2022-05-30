@@ -1,0 +1,137 @@
+.photo {
+    height: 150px;
+}
+
+.poke-stats {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.poke-card {
+    margin: 20px;
+    border-radius: 2rem;
+    height: 450px;
+    padding: 25px;
+    width: 300px;
+}
+
+.poke-card:hover .stat-holder{
+    display: block;
+    transition: 250ms;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+.poke-header {
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-holder {
+    display: none;
+    border-radius: 1rem;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+}
+
+.poke-body {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.poke-footer {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.poke-type {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.poke-id {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.poke-name {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.poke-card.grass {
+    background-color: #C4E4AF;
+}
+
+.poke-card.fire {
+    background-color: #F3AD94;
+}
+
+.poke-card.water {
+    background-color: #AAECFC;
+}
+
+.poke-card.bug {
+    background-color: #A58775;
+}
+
+.poke-card.normal {
+    background-color: #E3E1B7;
+}
+
+.poke-card.poison {
+    background-color: #C633D3;
+}
+
+.poke-card.electric {
+    background-color: #D6D36B;
+}
+
+.poke-card.ground {
+    background-color: #6C3C14;
+}
+
+.poke-card.fairy {
+    background-color: #E89FE8;
+}
+
+.poke-card.fighting {
+    background-color: #71CEA8;
+}
+
+.poke-card.psychic {
+    background-color: #B0CE71;
+}
+
+.poke-card.rock {
+    background-color: grey;
+}
+
+.poke-card.ghost {
+    background-color: #7671CE;
+}
+
+.poke-card.ice {
+    background-color: #C1E9F3;
+}
+
